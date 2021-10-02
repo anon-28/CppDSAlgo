@@ -11,6 +11,7 @@ int main()
     LinkedLists *pList = LinkedLists::get_object();
     
     // node insertion at beginning
+	// insert 10
     pList->insert_node_beginning(10);
     pList->insert_node_beginning(20);
     pList->insert_node_beginning(30);
